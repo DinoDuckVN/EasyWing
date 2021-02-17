@@ -76,7 +76,7 @@ Class Loader extends PluginBase implements Listener{
 	* @return bool
 	*/
 	public static function hasPer(Player $player, string $wing) :bool{
-		return $player->hasPermission("wing.on.".$wing);
+		return $player->hasPermission("easywing.on.".$wing);
 	}
 
 	/**
